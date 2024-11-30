@@ -1,16 +1,19 @@
 # iris-project
 
-##About the project
+## About the project
+
 This project demonstrates the application of clustering techniques to the Iris dataset, a widely used dataset in data science and machine learning. The project implements two clustering algorithms—KMeans Clustering and Hierarchical Clustering—to group data points based on their similarity. The goal is to explore unsupervised learning methods and uncover natural groupings within the dataset.
 
-##Objective of the project
+## Objective of the project
+
 The primary objective of this project is to evaluate and compare clustering techniques to gain insights into the structure of the dataset. Specifically, the project focuses on:
 Loading and preprocessing the Iris dataset to prepare it for clustering.
 Implementing KMeans Clustering and Hierarchical Clustering to group the data.
 Visualizing and interpreting the clusters formed by each algorithm.
 Understanding the strengths and limitations of each clustering method.
 
-##DataSet
+## DataSet
+
 The Iris dataset is available in the sklearn library and contains:
 Features:
 Sepal Length (cm)
@@ -21,7 +24,7 @@ Samples: 150
 Species: Three species of Iris (Setosa, Versicolor, Virginica).
 Note: The species column is dropped as clustering is an unsupervised learning task.
 
-##Implementation
+## Implementation
 1. Data Loading and Preprocessing
 The dataset is loaded using the sklearn.datasets module.
 The features are normalized using StandardScaler to ensure that all variables are on the same scale.
@@ -47,7 +50,7 @@ Apply Agglomerative Clustering to form clusters.
 Visualize the clusters in a 2D scatter plot.
 
 
-##Results
+## Results
 KMeans Clustering Results:
 The Elbow Method suggested three clusters, corresponding to the three species.
 Clusters were visualized in a scatter plot, showing distinct groupings.
